@@ -1,4 +1,10 @@
-# Clean up new tables
+# To create a new database
+CREATE DATABASE mydb;
+
+# To use existing database
+Use mydb;
+
+# Clean up or delete new tables if exists
 DROP TABLE car, tyre, size, loadindex, type, tyrespec, fittedto;
 
 # Create Multiple Tables to normalise the data
